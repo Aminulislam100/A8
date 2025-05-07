@@ -2,7 +2,7 @@
     "data": [
       {
         "id": 1,
-        "Image": "https://example.com/images/person1.jpg",
+        "Image": "/Lawyer1.PNG",
         "Name": "Sarah Johnson",
         "Speciality": "Cardiologist",
         "Experience": "12 years",
@@ -10,8 +10,8 @@
         "View Details": "https://example.com/doctors/dr-sarah-johnson"
       },
       {
-        "id": 1,
-        "Image": "https://example.com/images/person2.jpg",
+        "id": 2,
+        "Image": "/Lawyer2.PNG",
         "Name": "Michael Brown",
         "Speciality": "Dermatologist",
         "Experience": "8 years",
@@ -19,95 +19,77 @@
         "View Details": "https://example.com/doctors/dr-michael-brown"
       },
       {
-        "id": 1,
-        "Image": "https://example.com/images/person3.jpg",
+        "id": 3,
+        "Image": "/Lawyer3.PNG",
         "Name": "Emily Davis",
         "Speciality": "Neurologist",
         "Experience": "15 years",
-        "LicenseNumber": "N3456789",
+        "LicenseNumber": "E3456789",
         "View Details": "https://example.com/doctors/dr-emily-davis"
       },
-      {
-        "id": 1,
-        "Image": "https://example.com/images/person4.jpg",
-        "Name": "John Smith",
-        "Speciality": "Orthopedic Surgeon",
-        "Experience": "10 years",
-        "LicenseNumber": "O4567890",
-        "View Details": "https://example.com/doctors/dr-john-smith"
-      },
-      {
-        "id": 1,
-        "Image": "https://example.com/images/person5.jpg",
-        "Name": "Olivia Martin",
-        "Speciality": "Pediatrician",
-        "Experience": "5 years",
-        "LicenseNumber": "P5678901",
-        "View Details": "https://example.com/doctors/dr-olivia-martin"
-      },
-      {
-        "id": 1,
-        "Image": "https://example.com/images/person6.jpg",
-        "Name": "Liam Wilson",
-        "Speciality": "Psychiatrist",
-        "Experience": "9 years",
-        "LicenseNumber": "PS6789012",
-        "View Details": "https://example.com/doctors/dr-liam-wilson"
-      },
-      {
-        "id": 1,
-        "Image": "https://example.com/images/person7.jpg",
-        "Name": "Ava Garcia",
-        "Speciality": "Gastroenterologist",
-        "Experience": "7 years",
-        "LicenseNumber": "G7890123",
-        "View Details": "https://example.com/doctors/dr-ava-garcia"
-      },
-      {
-        "id": 1,
-        "Image": "https://example.com/images/person8.jpg",
-        "Name": "Benjamin Martinez",
-        "Speciality": "ENT Specialist",
-        "Experience": "11 years",
-        "LicenseNumber": "E8901234",
-        "View Details": "https://example.com/doctors/dr-benjamin-martinez"
-      },
-      {
-        "id": 1,
-        "Image": "https://example.com/images/person9.jpg",
-        "Name": "Isabella Lee",
-        "Speciality": "Ophthalmologist",
-        "Experience": "6 years",
-        "LicenseNumber": "O9012345",
-        "View Details": "https://example.com/doctors/dr-isabella-lee"
-      },
-      {
-        "id": 1,
-        "Image": "https://example.com/images/person10.jpg",
-        "Name": "Henry Harris",
-        "Speciality": "Urologist",
-        "Experience": "14 years",
-        "LicenseNumber": "U0123456",
-        "View Details": "https://example.com/doctors/dr-henry-harris"
-      },
-      {
-        "id": 1,
-        "Image": "https://example.com/images/person11.jpg",
-        "Name": "Mia Clark",
-        "Speciality": "Radiologist",
-        "Experience": "13 years",
-        "LicenseNumber": "R1234567",
-        "View Details": "https://example.com/doctors/dr-mia-clark"
-      },
-      {
-        "id": 1,
-        "Image": "https://example.com/images/person12.jpg",
-        "Name": "Lucas Rodriguez",
-        "Speciality": "Surgeon",
-        "Experience": "16 years",
-        "LicenseNumber": "S2345678",
-        "View Details": "https://example.com/doctors/dr-lucas-rodriguez"
-      }
+        {
+          "id": 4,
+          "Image": "/Lawyer4.PNG",
+          "Name": "John Smith",
+          "Speciality": "Orthopedic Surgeon",
+          "Experience": "10 years",
+          "LicenseNumber": "O4567890",
+          "View Details": "https://example.com/doctors/dr-john-smith"
+        },
+        {
+          "id": 5,
+          "Image": "/Lawyer5.PNG",
+          "Name": "Olivia Martin",
+          "Speciality": "Pediatrician",
+          "Experience": "5 years",
+          "LicenseNumber": "P5678901",
+          "View Details": "https://example.com/doctors/dr-olivia-martin"
+        },
+        {
+          "id": 6,
+          "Image": "/Lawyer6.PNG",
+          "Name": "Liam Wilson",
+          "Speciality": "Psychiatrist",
+          "Experience": "9 years",
+          "LicenseNumber": "PS6789012",
+          "View Details": "https://example.com/doctors/dr-liam-wilson"
+        },
+        {
+          "id": 7,
+          "Image": "/Lawyer7.PNG",
+          "Name": "Ava Garcia",
+          "Speciality": "Gastroenterologist",
+          "Experience": "7 years",
+          "LicenseNumber": "G7890123",
+          "View Details": "https://example.com/doctors/dr-ava-garcia"
+        },
+        {
+          "id": 8,
+          "Image": "/Lawyer8.PNG",
+          "Name": "Benjamin Martinez",
+          "Speciality": "ENT Specialist",
+          "Experience": "11 years",
+          "LicenseNumber": "E8901234",
+          "View Details": "https://example.com/doctors/dr-benjamin-martinez"
+        },
+        {
+          "id": 9,
+          "Image": "/Lawyer9.PNG",
+          "Name": "Isabella Lee",
+          "Speciality": "Ophthalmologist",
+          "Experience": "6 years",
+          "LicenseNumber": "O9012345",
+          "View Details": "https://example.com/doctors/dr-isabella-lee"
+        },
+        {
+          "id": 10,
+          "Image": "/Lawyer10.PNG",
+          "Name": "Henry Harris",
+          "Speciality": "Urologist",
+          "Experience": "14 years",
+          "LicenseNumber": "U0123456",
+          "View Details": "https://example.com/doctors/dr-henry-harris"
+        } 
     ]
   }
   

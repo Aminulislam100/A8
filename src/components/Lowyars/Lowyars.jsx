@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import lawyerImg from '../../assets/lawyer.png';
 import { Link } from 'react-router-dom';
 
 
@@ -29,7 +28,7 @@ const Lowyars = () =>{
           {displayedLawyers.length > 0 ? (
             displayedLawyers.map((lawyer, index) => (
               <div key={index} className="bg-white shadow-md rounded-xl p-4 h-45 flex border">
-                <img src={lawyerImg} alt="Lawyer Icon" className="w-26 h-26 mb-4" />
+                <img src={lawyer.Image} alt="Lawyer Icon" className="rounded-full w-26 h-26 mb-4" />
                 <div>
                   <span className="inline-block mt-2 bg-green-100 text-green-700 text-xs font-medium px-3 py-1 rounded-full">
                     Available
@@ -40,7 +39,7 @@ const Lowyars = () =>{
                   <h3 className="font-semibold text-lg">{lawyer.Name}</h3>
                   <p className="text-sm text-gray-600">{lawyer.title}</p>
                   <p className="text-sm text-gray-500">{lawyer.Speciality}</p>
-                  <p className="text-sm text-gray-500">License No: {lawyer.Speciality}</p>
+                  <p className="text-sm text-gray-500">License No: {lawyer.LicenseNumber}</p>
 
                   <Link
           to={`lawyer/${lawyer.id}`}
